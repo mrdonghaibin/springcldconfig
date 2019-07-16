@@ -6,12 +6,18 @@ spring:
 spring:
   profiles: dev
   application:
-      name: microconfig-test-dev
+      name: springcldconfig-testdev
+  security:
+    user:
+      name: admin
+      password: enjoy
 ---
 spring:
  profiles: default
  application:
-      name: microconfig-test-default
-
-
+      name: springcldconfig-testdefault
+ security:
+    user:
+      name: zhangsan
+      password: zhangsan133
     
